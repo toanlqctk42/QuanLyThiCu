@@ -10,6 +10,8 @@ namespace NetLib
     [Serializable]
     public enum ServerResponseType
     {
+        SendMonThi,
+        SendThoiGianThi,
         SendPcName,
         SendMessage,
         SendDSCSDL,

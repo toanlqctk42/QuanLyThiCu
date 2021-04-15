@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace ThuBaiThi
 {
+    [Serializable]
     class MaytinhInfoManager
     {
         private const string Default_IP = "0.0.0.0";

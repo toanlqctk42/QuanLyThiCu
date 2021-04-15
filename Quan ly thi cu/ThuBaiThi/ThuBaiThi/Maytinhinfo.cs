@@ -6,6 +6,7 @@ using System.Text;
 using NetLib;
 namespace ThuBaiThi
 {
+    [Serializable]
     public class Maytinhinfo
     {
         public string PCName { get; set; }
