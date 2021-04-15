@@ -53,7 +53,7 @@ namespace Client
             else
             {
                 this.timer1.Stop();
-                MessageBox.Show("Finish !!");
+                this.Close();
             }
         }
 

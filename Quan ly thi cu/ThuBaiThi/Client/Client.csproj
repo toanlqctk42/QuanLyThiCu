@@ -60,12 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TimeExam.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TimeExam.Designer.cs">
-      <DependentUpon>TimeExam.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Client.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Client.cs</DependentUpon>
@@ -83,9 +77,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TimeExam.resx">
-      <DependentUpon>TimeExam.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

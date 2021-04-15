@@ -34,5 +34,4 @@ G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.csproj.Core
 G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.csproj.CopyComplete
 G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.exe
 G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.pdb
-G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.TimeExam.resources
 G:\test\QuanLyThiCu\Quan ly thi cu\ThuBaiThi\Client\obj\Debug\Client.frmStartExam.resources
