@@ -41,8 +41,8 @@ namespace NetLib
 
 		private DataProvider()
 		{
-			SqlConnection connect = createConnection();
 			/* connectionSTR = "Data Source=DESKTOP-D5J6KVO;Initial Catalog=ListStudentSQL;Integrated Security=True";*/
+			SqlConnection connect = createConnection();
 			connectionSTR = connect.ConnectionString;
 		}
 
