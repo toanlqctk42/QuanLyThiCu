@@ -16,13 +16,13 @@ namespace NetLib
 		private readonly string connectionSTR;
 		private static SqlConnection createConnection()
 		{
-			string datasource = SystemInformation.ComputerName + "\\";
+			string datasource = SystemInformation.ComputerName;
 			string databasePath= null;
 			OpenFileDialog open = new OpenFileDialog();
 			open.Filter = "All Files (*.*)|*.*";
 			if (open.ShowDialog() == DialogResult.OK)
 			{
-				databasePath = open.SafeFileName;
+				databasePath = open.SafeFileName.Substring(0,open.SafeFileName.LastIndexOf("."));
 				
 			}
 			return new SqlConnection("Data Source=" + datasource + ";Initial Catalog=" + databasePath + ";Integrated Security=True");
@@ -41,7 +41,9 @@ namespace NetLib
 
 		private DataProvider()
 		{
-			connectionSTR = "Data Source=DESKTOP-D5J6KVO;Initial Catalog=ListStudentSQL;Integrated Security=True";
+			SqlConnection connect = createConnection();
+			/* connectionSTR = "Data Source=DESKTOP-D5J6KVO;Initial Catalog=ListStudentSQL;Integrated Security=True";*/
+			connectionSTR = connect.ConnectionString;
 		}
 
 		public DataTable ExecuteQuery(string query, object[] parameter = null)
